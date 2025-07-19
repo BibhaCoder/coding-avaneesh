@@ -1,7 +1,7 @@
 def getbits():
-    x = int(input())
-    p = int(input())
-    n = int(input())
+    x = int(input("Enter number"))
+    p = int(input("Enter position"))
+    n = int(input("Number of bits to extract"))
     print(bin(x))
     if n > p + 1:
       print("Invalid n: " + str(n))
