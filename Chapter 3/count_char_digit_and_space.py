@@ -14,4 +14,4 @@ print("Amount of Letters:", letter_count)
 
 white_space_count = len(user_input) - digit_count - letter_count
 
-print("Amount of white spaces: ", white_space_count)
+print("Amount of white spaces:", white_space_count)
